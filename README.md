@@ -25,17 +25,6 @@ Each folder may include:
 
 - Output files or examples where relevant
 
-Example structure:
-
-python-learning-projects/
-│
-├─ workout-tracker/
-│  ├─ workout_tracker.py
-│  └─ README.md (optional project details)
-│
-├─ project-2/
-├─ project-3/
-└─ ...
 
 # Skills Practiced
 
