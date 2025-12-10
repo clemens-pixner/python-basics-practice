@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 def int_ctrl(text):
     while True:
         try:
@@ -23,9 +22,6 @@ def str_ctrl(text):
         else:
             print("Please enter something")
 
-=======
->>>>>>> f1b329a59b75d2edb5b4d63b08187e23a73b0d65
-
 workout = []
 counter = 0
 
@@ -33,11 +29,7 @@ print("Workout Tracker")
 
 menu = """
 -----------------------
-<<<<<<< HEAD
 1) Add Exercise 
-=======
-1) Add Workout 
->>>>>>> f1b329a59b75d2edb5b4d63b08187e23a73b0d65
 2) View Workout 
 3) Exit Workout Tracker
 -----------------------
@@ -46,7 +38,6 @@ print(menu)
 
 
 while True:
-<<<<<<< HEAD
     selection = int_ctrl("What do you want to do (1/2/3)? ")
     if selection == 1:
         while True:
@@ -58,29 +49,11 @@ while True:
             exercise = {
                 "name" : name,
                 "sets" : sets,
-=======
-    try:
-        selection = int(input("What do you want to do (1/2/3)? "))
-    except ValueError:
-        print("Please enter 1, 2 or 3")
-    
-    if selection == 1:
-        amount = int(input("How much exercises did you do?"))
-        for i in range(amount):
-            name = str(input("What exercise did you do? "))
-            reps = int(input("How many reps did you do? "))
-            weight = float(input("With how much weight? "))
-            total_weight = reps * weight
-
-            exercise = {
-                "name" : name,
->>>>>>> f1b329a59b75d2edb5b4d63b08187e23a73b0d65
                 "reps" : reps,
                 "weight" : weight
             }
 
             workout.append(exercise)
-<<<<<<< HEAD
             print("Exercise added")
 
             while True:
@@ -111,20 +84,4 @@ while True:
     else:
         print("Goodbye!")
         break
-=======
-            print("Workout added")
 
-    elif selection == 2:
-        if len(workout) == 0:
-            print("No Workout found")
-            continue
-        else:
-            for ex in workout:
-                print(f"\nExercise: {ex['name']}")
-                print(f"Reps: {ex['reps']}")
-                print(f"Weight: {ex['weight']}Kg")
-                print(f"Total weight: {ex['reps'] * ex['weight']}Kg")
-    else:
-        print("Goodbye!")
-        break
->>>>>>> f1b329a59b75d2edb5b4d63b08187e23a73b0d65
