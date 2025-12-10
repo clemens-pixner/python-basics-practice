@@ -14,7 +14,7 @@ This repository contains a variety of small Python projects and exercises create
 - Document growth as a future Python developer
   
 
-# Repository Structure
+## Repository Structure
 
 Projects are organized into individual folders.
 Each folder may include:
@@ -26,7 +26,7 @@ Each folder may include:
 - Output files or examples where relevant
 
 
-# Skills Practiced
+## Skills Practiced
 
 - Python syntax & fundamentals
 
@@ -41,7 +41,7 @@ Each folder may include:
 - Version control with GitHub
 
 
-# Roadmap (Planned Improvements)
+## Roadmap (Planned Improvements)
 
 - Add more beginner and intermediate projects
 
@@ -53,4 +53,4 @@ Each folder may include:
 object-oriented programming, APIs, databases, and AI fundamentals
 
 Progress is continuous — new updates will be published regularly.
-# Feel free to explore, suggest improvements, or share feedback.
+## Feel free to explore, suggest improvements, or share feedback.
