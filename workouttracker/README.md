@@ -44,5 +44,4 @@ python3 workouttracker.py
 
 - More usefull functions
 - Saving workouts to a file (JSON, CSV, SQLite)
-- Splitting logic into separate functions
-- Optional basic UI (web interface)
+
