@@ -23,7 +23,6 @@ def str_ctrl(text):
             print("Please enter something")
 
 workout = []
-counter = 0
 
 print("Workout Tracker")
 
@@ -77,9 +76,17 @@ while True:
             print("\nWorkout:")
             for ex in workout:
                 print(f"\nExercise: {ex['name']}")
-                print(f"Sets: {ex["sets"]}")
-                print(f"Reps: {ex["reps"]}")
-                print(f"Weight: {ex["weight"]}Kg")
+                print(f"Sets: {ex['sets']}")
+                print(f"Reps: {ex['reps']}")
+                print(f"Weight: {ex['weight']}Kg")
+
+            total_weight = sum(w["weight"] for w in workout)
+            total_sets = sum(w["sets"] for w in workout)
+            total_reps = sum(w["reps"] for w in workout)
+           
+            print(f"\n Total weight: {total_weight}Kg")
+            print(f"Total sets: {total_sets}")
+            print(f"Total reps: {total_reps}")
                 
     else:
         print("Goodbye!")
