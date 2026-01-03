@@ -32,7 +32,6 @@ This project focuses on **clean structure, correct encoding handling, and readab
 
 This project is intentionally simple, but it can be extended in many ways:
 
-* Scrape **multiple pages** (e.g. page-2, page-3, etc.)
 * Store results in a **CSV or JSON file**
 * Convert prices to numeric values for analysis
 * Add basic error handling (timeouts, missing elements)
